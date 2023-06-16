@@ -119,11 +119,17 @@ nav.fill ul li a:hover:after {
   }
 
   .container{
-    border: 2px solid #9925be;
+    border: 12px solid #91b6ff;
     margin-left:50px;
     border-radius:25px;
     width:600px;
     height:550px;
+    z-index:2;
+  }
+
+  .KidswithPc{
+    width:577.5px;
+    height:350px;
   }
   
 
