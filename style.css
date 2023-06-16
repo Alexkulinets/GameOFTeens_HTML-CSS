@@ -86,8 +86,8 @@ nav.fill ul li a:hover {
 }
 nav.fill ul li a:hover:after {
   z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
+  animation: fill 0.5s forwards;
+  -webkit-animation: fill 0.85s forwards;
   -moz-animation: fill 1s forwards;
   opacity: 1;
 }
@@ -119,8 +119,8 @@ nav.fill ul li a:hover:after {
   }
 
   .container{
-    border: 12px solid #91b6ff;
-    background: #216373;
+    border: 13.5px solid #91b6ff;
+    background: #395e6f;
     margin-left:50px;
     border-radius:25px;
     width:600px;
@@ -134,9 +134,12 @@ nav.fill ul li a:hover:after {
   }
 
   .KidswithPc{
-    width:577px;
-    height:350px;
+    width:575.7px;
+    height:355px;
     z-index: 1;
+    border:10px solid #7693ce;
+    border-radius:15px 15px 0 0;
+    margin-top:-2.5px;
   }
 
   .heroname{
@@ -155,5 +158,16 @@ nav.fill ul li a:hover:after {
     padding:5px 10px;
   }
 
+  .freeiconcloud{
+    position: absolute;
+    width:250px;
+    height:250px;
+    margin-left:575px;
+    margin-bottom:350px;
+  }
+  .freeiconcloud.two{
+    margin-top:750px;
+    margin-left:700px;
+  }
 
 
