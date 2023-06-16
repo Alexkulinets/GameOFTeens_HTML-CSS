@@ -115,11 +115,12 @@ nav.fill ul li a:hover:after {
     margin-top:75px;
     display:flex;
     align-items:center;
-    justify-content:flex-start;
+    justify-content:space-between;
   }
 
   .container{
     border: 12px solid #91b6ff;
+    background: #216373;
     margin-left:50px;
     border-radius:25px;
     width:600px;
@@ -127,11 +128,32 @@ nav.fill ul li a:hover:after {
     z-index:2;
   }
 
-  .KidswithPc{
-    width:577.5px;
-    height:350px;
+  .container.two{
+    margin-right:50px;
+    margin-top:100px;
   }
-  
+
+  .KidswithPc{
+    width:577px;
+    height:350px;
+    z-index: 1;
+  }
+
+  .heroname{
+    color:rgb(160, 239, 255);
+    font-weight:800;
+    font-size:27.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px 10px;
+    z-index:1;
+  }
+  .herotext{
+    color:rgb(248, 254, 255);
+    font-weight:500;
+    font-size:17.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px 10px;
+  }
 
 
 
